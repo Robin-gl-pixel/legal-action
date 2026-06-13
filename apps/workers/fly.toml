@@ -1,0 +1,15 @@
+# TODO(robin, 2026-06-13, #2): a completer une fois Fly.io provisionne.
+app = "legal-action-workers"
+primary_region = "cdg"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  APP_ENV = "production"
+  LOG_LEVEL = "info"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512
