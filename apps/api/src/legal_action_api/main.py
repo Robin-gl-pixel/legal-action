@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from legal_action_api import __version__
 from legal_action_api.routes.health import router as health_router
+from legal_action_api.routes.templates import router as templates_router
 
 app = FastAPI(
     title="legal-action API",
@@ -19,3 +20,4 @@ app.add_middleware(
 )
 
 app.include_router(health_router)
+app.include_router(templates_router)
