@@ -1,0 +1,52 @@
+# serializer version: 1
+# name: test_rendu_resiliation_free_snapshot
+  dict({
+    'faits': '''
+      Madame, Monsieur,
+      
+      Je suis titulaire du contrat reference FR-123456789 souscrit aupres de vos services.
+      
+      Le 3 mars 2026, j'ai sollicite la resiliation de ce contrat par courrier recommande.
+      
+      Le courrier a ete depose au bureau de poste de Paris 02 et receptionne le 6 mars 2026 selon le suivi La Poste. Aucune confirmation de resiliation ne m'a ete adressee depuis cette date.
+      
+      A ce jour, vos services n'ont pas pris acte de cette demande de resiliation et continuent d'executer le contrat ainsi que les prelevements associes, pour un montant total conteste de 47,98 euros.
+    ''',
+    'fondement': '''
+      Aux termes de l'article L224-33 du code de la consommation, le consommateur peut, apres la premiere annee d'execution d'un contrat de services de communications electroniques souscrit pour une duree determinee, resilier ce contrat a tout moment, par tout moyen, sans penalite et sans motif.
+      
+      L'article L121-84-2 du code de la consommation impose au fournisseur de services de communications electroniques de mettre en oeuvre la resiliation dans un delai maximal de dix jours a compter de la reception de la demande, sauf demande contraire expresse du consommateur, et de restituer le solde crediteur du compte client le cas echeant.
+      
+      L'article 1217 du code civil rappelle que la partie envers laquelle l'engagement n'a pas ete execute ou l'a ete imparfaitement peut notamment poursuivre l'execution forcee en nature de l'obligation, obtenir une reduction du prix, provoquer la resolution du contrat et demander reparation des consequences de l'inexecution.
+      
+      L'absence de prise en compte d'une demande de resiliation reguliere, et le maintien des prelevements consecutifs, sont constitutifs d'une inexecution contractuelle au sens des dispositions precitees.
+    ''',
+    'formule_fin': '''
+      La presente mise en demeure est adressee dans le cadre d'une demarche personnelle d'assistance a la redaction. Elle ne constitue pas une consultation juridique au sens de la loi n 71-1130 du 31 decembre 1971.
+      
+      Document genere avec l'assistance d'un outil d'intelligence artificielle, sous le controle et la responsabilite de son expediteur.
+      
+      Je vous prie d'agreer, Madame, Monsieur, l'expression de mes salutations distinguees.
+    ''',
+    'objet': '''
+      Objet : Mise en demeure de prendre acte de la resiliation du contrat reference FR-123456789
+      
+      Lettre recommandee avec accuse de reception.
+      
+      Expediteur : Jeanne Dupont
+      Adresse : 12 rue de la Paix, 75002 Paris
+      
+      Destinataire :
+      Free SAS
+      Service Resiliations
+      75371 Paris Cedex 08
+    ''',
+    'pretentions': '''
+      En consequence, je vous mets en demeure, dans un delai de quinze (15) jours a compter de la reception de la presente, de :
+      
+      prendre acte de la resiliation au 6 mars 2026, cesser tout prelevement ulterieur et procéder au remboursement des sommes prelevees depuis cette date.
+      
+      A defaut de reponse satisfaisante dans ce delai, je me reserve le droit de saisir le mediateur des communications electroniques, puis toute juridiction competente, et de demander reparation du prejudice subi.
+    ''',
+  })
+# ---
