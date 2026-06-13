@@ -7,7 +7,7 @@ export default function HomePage() {
         Reclam
       </p>
       <h1 className="mt-6 font-sans text-5xl font-bold leading-tight tracking-tight text-accent">
-        L’IA qui te débarrasse de SFR en 5 minutes.
+        L&rsquo;IA qui te débarrasse de SFR en 5 minutes.
       </h1>
       <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
         Tes litiges télécom, classés. Tu balances tes pièces, on rédige la mise
@@ -27,11 +27,6 @@ export default function HomePage() {
           État du système
         </Link>
       </div>
-      <p className="mt-16 text-xs leading-relaxed text-muted-foreground">
-        Reclam n’est pas un cabinet d’avocat. L’app t’assiste dans la rédaction
-        de tes courriers et le suivi de ton dossier, sans constituer un conseil
-        juridique. Tu interagis avec un assistant IA.
-      </p>
     </main>
   );
 }
