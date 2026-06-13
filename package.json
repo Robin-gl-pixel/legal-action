@@ -1,0 +1,19 @@
+{
+  "name": "legal-action",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Legal-action monorepo — litiges télécom B2C France.",
+  "packageManager": "pnpm@11.6.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @legal-action/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "api:client:regen": "pnpm --filter @legal-action/api-client regen"
+  }
+}
